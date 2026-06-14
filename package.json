@@ -4,7 +4,11 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-   "build": "vinxi build"
+  "scripts": {
+  "dev": "vinxi dev",
+  "build": "vinxi build",
+  "start": "vinxi start"
+}
     },
   "dependencies": {
     "@tanstack/start-adapter-vercel": "^1.167.50",
