@@ -4,13 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "preinstall": "npm config set legacy-peer-deps true",
-    "dev": "vite dev --host",
-    "build": "vite build --ssr false",
-    "build:dev": "vite build --mode development",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+   "build": "vinxi build"
     },
   "dependencies": {
     "@tanstack/start-adapter-vercel": "^1.167.50",
