@@ -1,6 +1,8 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { vercel } from "@tanstack/start-adapter-vercel";
 
 export default defineConfig({
-  // We vertellen de build-tool hier dat hij geen SSR moet doen
-  ssr: false 
+  start: {
+    adapter: vercel(),
+  },
 });
