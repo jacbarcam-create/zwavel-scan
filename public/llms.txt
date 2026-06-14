@@ -1,0 +1,12 @@
+# SUOX & SULT Zuiveraar
+
+> Nederlandse voedingscoach die producten en recepten beoordeelt op sulfiet/zwavel (SUOX) en lever-fase-2 (SULT) belasting.
+
+De app helpt mensen met SUOX- en SULT-gevoeligheid om voeding snel te beoordelen via een stoplichtsysteem (groen/oranje/rood), recepten te herschrijven naar veilige alternatieven en een persoonlijk eetdagboek bij te houden.
+
+## Pages
+
+- [Scan](/): Beoordeel een product op SUOX- en SULT-triggers via productnaam en optionele ingrediëntenlijst.
+- [Barcode scanner](/scanner): Scan streepjescodes (EAN) voor directe analyse via Open Food Facts.
+- [Recepten](/recepten): Herschrijf recepten naar SUOX- en SULT-veilige varianten.
+- [Eetdagboek](/dagboek): Houd lokaal bij wat je at en hoe je je voelde.

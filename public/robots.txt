@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zwavel-scan.lovable.app/sitemap.xml
