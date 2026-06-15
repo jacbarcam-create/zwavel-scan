@@ -1,8 +1,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
-import { vercel } from "@tanstack/start-adapter-vercel";
 
 export default defineConfig({
-  start: {
-    adapter: vercel(),
-  },
+  // Verwijder de adapter-import en de 'start'-configuratie
+  // TanStack Start/Vinxi detecteert Vercel automatisch als je 
+  // het op Vercel deployt.
 });
