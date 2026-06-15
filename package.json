@@ -4,9 +4,12 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "scripts": {"build": "node node_modules/vinxi/bin/cli.mjs build",
-  "vercel-build": "node node_modules/vinxi/bin/cli.mjs build",
-    "start": "vinxi start"
+"scripts": {
+  "dev": "vinxi dev",
+  "build": "vinxi build",
+  "vercel-build": "vinxi build",
+  "start": "vinxi start"
+},
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
