@@ -4,12 +4,11 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-"scripts": {
-  "dev": "vinxi dev",
-  "build": "vinxi build",
-  "vercel-build": "vinxi build",
-  "start": "vinxi start"
-},
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "vercel-build": "vinxi build",
+    "start": "vinxi start"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
