@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
-    "build": "npm install && vinxi build",
-    "vercel-build": "npm install && vinxi build",
+    "build": "vinxi build",
+    "vercel-build": "vinxi build",
     "start": "vinxi start"
   },
   "dependencies": {

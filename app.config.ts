@@ -1,6 +1,7 @@
-// app.config.ts
-export default {
+import { defineConfig } from "@tanstack/start/config";
+
+export default defineConfig({
   server: {
-    preset: 'vercel',
+    preset: "vercel",
   },
-}
+});
