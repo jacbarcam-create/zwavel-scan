@@ -4,10 +4,8 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "vercel-build": "vinxi build",
+  "scripts": {"build": "node node_modules/vinxi/bin/cli.mjs build",
+  "vercel-build": "node node_modules/vinxi/bin/cli.mjs build",
     "start": "vinxi start"
   },
   "dependencies": {
