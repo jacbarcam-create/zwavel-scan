@@ -1,7 +1,14 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from '@tanstack/start/config'
+import viteTsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  // Verwijder de adapter-import en de 'start'-configuratie
-  // TanStack Start/Vinxi detecteert Vercel automatisch als je 
-  // het op Vercel deployt.
-});
+  plugins: [
+    viteTsConfigPaths({
+      projects: ['./tsconfig.json'],
+    }),
+  ],
+  // Dit is cruciaal voor Vercel:
+  server: {
+    preset: 'vercel',
+  },
+})
